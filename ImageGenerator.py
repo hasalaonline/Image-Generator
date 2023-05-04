@@ -3,7 +3,7 @@ import requests
 from PIL import Image
 from io import BytesIO
 
-openai.api_key = "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"
+openai.api_key = "OPENAI_API_KEY"
 
 def generate_image(prompt):
     response = openai.Image.create(
